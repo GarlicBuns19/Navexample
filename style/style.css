@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: inline-flex;
+    background-image:url('../image/Pink.png');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background-image:url('../image/Pink.png');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* heading and footer */
+header,footer{
+    min-width: 100%;
+    background-color: rgb(211, 199, 199);
+    color: rgb(250, 253, 253);
+    height: 100px;
+}
+
+body{
+    background-image:url('../image/sky.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    width: 7em;
+    height: 6.3em;
+}
+
+a{
+    color:azure;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    display: inline-flex;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+label{
+    margin: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+input{
+    margin-left: 20px;
+    width: 150px;
+    text-align: right ;
+}
+
+#contact{
+    text-align: center;
+}
+
+#ta {
+    margin-left: 21px;
+    text-align: center;
+}
+
+#sub {
+    margin-left: 5px;
+    width: 110px;
+    text-align: center;
+}
